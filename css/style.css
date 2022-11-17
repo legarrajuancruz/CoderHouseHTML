@@ -1,0 +1,572 @@
+/* RESETEO PREMADE*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* ////////////////   HTML Nav  ///////////////////*/
+
+.navegador {
+    display: block;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.navegador__imagen {
+    position: absolute;
+    display: block;
+    left: 15px;
+    top: 10px;
+}
+
+.navegador__botonera__listado {
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 35px;
+}
+
+.navegador__botonera__listado__link {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.navegador__botonera__listado__link__ancla {
+    color: rgb(0, 24, 75);
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.navegador__botonera__listado__link__ancla:hover {
+    color: black;
+    background-color: rgb(129, 156, 245);
+
+}
+
+/* /////////// HTML Footer //////////// */
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    color: white;
+    background-color: rgb(43, 43, 43);
+    padding-top: 5px;
+    font-family: Tahoma, sans-serif;
+}
+
+.footer__div__uno {
+    margin-left: 600px;
+    display: inline-block;
+}
+
+.footer__div__dos {
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 0px
+}
+
+.footer__div__ul__li {
+    line-height: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style: none;
+}
+
+/* ///////////////////// HTML INDEX  ///////////////////*/
+
+.main {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.main__section {
+    display: inline-block;
+    width: 100%;
+    height: 740px;
+    margin-top: 80px;
+    text-align: center;
+    background-image: linear-gradient(#0000001f, #00000062, #000000a9), url(../asset/images/backgroud-main-section-4.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__section__h1 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    color: white;
+    padding-top: 300px;
+    font-weight: lighter;
+}
+
+.main__section__h2 {
+
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+span {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+
+.main__section__p {
+    display: inline-block;
+    text-align: center;
+    height: 300px;
+    width: 750px;
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+
+/* BEM SEGUNDA SECTION */
+
+.main__section__dos {
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.main__section__dos__image {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.main__section__dos__p {
+    display: inline-block;
+    text-align: center;
+    width: 750px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 2rem;
+    padding: 15px 15px 15px 15px;
+    margin-left: 550px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 30px;
+}
+
+/* ///////////////////// HTML Galeria ///////////// */
+
+.maingaleria {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(#4245500e, #0000000e, #29292910);
+}
+
+.maingaleria__section {
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.maingaleria__section__card {
+    display: inline-block;
+    width: 500px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(122, 122, 122);
+    text-align: center;
+}
+
+.maingaleria__section__card__img {
+    width: 498px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.maingaleria__section__card__div {
+    background-color: rgb(255, 255, 255);
+}
+
+.maingaleria__section__card__div__h2 {
+    font-size: 2.5rem;
+}
+
+.maingaleria__section__card__div__p {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+/* ///////////////////// HTML Productos ///////////// */
+
+/* Section uno */
+
+.sectionuno {
+    display: inline-block;
+    width: 100%;
+    height: 800px;
+    margin-top: 80px;
+    text-align: center;
+    background-image: linear-gradient(#0000001f, #00000062, #000000a9), url(../asset/images/4.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionuno__h1 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    color: white;
+    padding-top: 60px;
+    font-weight: lighter;
+}
+
+.sectionuno__h2 {
+
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+.sectionuno__p {
+    display: inline-block;
+    text-align: center;
+    height: 700px;
+    width: 750px;
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+
+/* Section dos */
+
+.sectiondos {
+    display: inline-block;
+    width: 100%;
+    height: 850px;
+    padding-top: 50px;
+    padding-left: 250px;
+    background-image: linear-gradient(rgb(197, 197, 197), rgb(245, 245, 245));
+}
+
+.sectiondos__card {
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.sectiondos__carddos {
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 750px;
+}
+
+.sectiondos__card__div__h2 {
+    background-color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.sectiondos__card__div__p {
+    font-size: 1.5rem;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 30px;
+    line-height: 24px;
+
+}
+
+.sectiondos__card__div__ul {
+    margin-top: 25px;
+    padding-left: 45px;
+    text-align: start;
+    font-weight: bold;
+
+}
+
+.sectiondos__card__div__ul__li {
+    font-size: 2rem;
+}
+
+.imgProductos {
+    width: 100%;
+    height: 250px;
+    background-image: url(../asset/images/imagen-productos-dos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgProductos2 {
+    width: 100%;
+    height: 250px;
+    background-image: url(../asset/images/imagen-productos-uno.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ////////////////////     HTML nosotros   ///////////////// */
+
+.section__nosotros__uno {
+    display: inline-block;
+    width: 100%;
+    height: 50vh;
+    margin-top: 80px;
+    text-align: center;
+    background-image: linear-gradient(#0000001f, #00000062, #000000a9), url(../asset/images/Nosotros.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section__nosotros__uno__h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    padding-top: 160px;
+    font-weight: lighter;
+}
+
+.section__nosotros__uno__h2 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+/* Section dos */
+
+.section__nosotros__dos {
+    display: inline-block;
+    width: 100%;
+    height: 950px;
+    padding-top: 50px;
+    padding-left: 250px;
+    background-image: linear-gradient(rgb(197, 197, 197), rgb(245, 245, 245));
+
+}
+
+
+.section__nosotros__dos__card {
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.section__nosotros__dos__carddos {
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 750px;
+}
+
+.section__nosotros__dos__card__div__h2 {
+    background-color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.section__nosotros__dos__card__div__h3 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    padding-top: 0px
+}
+
+
+.section__nosotros__dos__card__div__p {
+    font-size: 1.5rem;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 30px;
+    line-height: 24px;
+
+}
+
+.section__nosotros__dos__card__div__ul {
+    margin-top: 25px;
+    padding-left: 45px;
+    text-align: start;
+    font-weight: bold;
+
+}
+
+.section__nosotros__dos__card__div__ul__li {
+    font-size: 2rem;
+}
+
+.imgNosotros {
+    width: 100%;
+    height: 250px;
+    background-image: url(../asset/images/Perfil\ -\ Legarra\ Juan\ Cruz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgNosotros2 {
+    width: 100%;
+    height: 250px;
+    background-image: url(../asset/images/Perfil\ -\ Hernan\ Pablo\ Patane.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ////////////////////     HTML Contacto   ///////////////// */
+
+/*  Section uno */
+.section__contacto__uno {
+    display: inline-block;
+    width: 100%;
+    height: 40vh;
+    background-image: url(../asset/images/Gatos\ contacto.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Section dos */
+
+.section__contacto__dos {
+    display: inline-block;
+    width: 100%;
+    height: 650px;
+    padding-top: 50px;
+    padding-left: 250px;
+    background-color: white;
+    font-size: 2rem;
+}
+
+.section__contacto__dos__card {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.h1contacto {
+    width: 100%;
+    height: 40px;
+    font-size: 3rem;
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.pcontacto {
+    font-size: 3rem;
+    text-align: start;
+    padding-left: 15px;
+}
+
+.contactoForm {
+    position: absolute;
+    width: 750px;
+    height: 450px;
+    margin-left: 630px;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.section__contacto__dos__card__div__h2 {
+    background-color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 2rem;
+}
+
+.section__contacto__dos__card__div__p {
+    background-color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    padding-top: 25px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 2rem;
+}
+
+.input {
+    margin-bottom: 15px;
+    margin-left: 25px;
+    width: 200px;
+    height: 25px;
+    font-size: 1.5rem;
+}
+
+.labelFormulario {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.labelFormularioDos {
+    width: 550px;
+    font-size: 1.2rem;
+    font-weight: lighter;  
+    margin-bottom: 35px;  
+}
+
+.botonEnviar{
+    font-size: 2rem;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.listaOrdenadaFormulario{
+    list-style: none;
+}
+
+.textareaformulario{
+    font-size: 4rem;
+    font-weight: lighter;
+}
