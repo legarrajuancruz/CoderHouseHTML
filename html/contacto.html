@@ -8,6 +8,7 @@
     <title>Creative LEGA</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="short cut icon" href="../asset/images/Creative-LEGA-favicon.png">
+    <script src="https://kit.fontawesome.com/cf9b4143f5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -31,88 +32,114 @@
     </header>
 
     <main>
-        <section class="section__contacto__uno"></section>
+        <div class="contenedorFormulario">
+            <section class="imagenContacto"></section>
 
-        <section class="section__contacto__dos">
-            <div class="section__contacto__dos__card">
-                <div>
-                    <h1 class="h1contacto">Contactanos</h1>
-                    <p class="pcontacto">_________</p>
-                    <h2 class="section__contacto__dos__card__div__h2">¿Tienes preguntas?. Nos encantaría conversar
-                        contigo. Envíanos un mensaje y te responderemos lo antes posible.</h2>
-                    <p class="section__contacto__dos__card__div__p">Whatsapp: 2494 521550
-                        <br> consultas@creativelega.com.ar
-
-                    </p>
-                </div>
-            </div>
-
-            <form class="contactoForm">
-                <ul class="listaOrdenadaFormulario">
-                    <li>
-                        <label class="labelFormulario">
-                            Nombre y apellido
-                            <input class="input" type="text" id="formNombre" name="nombre">
-                        </label>
-                    </li>
-
-                    <li> <label class="labelFormulario">
-                            Ingrese su email
-                            <input class="input" type="email" id="formmail" name="">
-                        </label>
-                    </li>
-
-                    <li>
-                        <label class="labelFormulario">
-                            Tipo de Consulta
-                            <select class="input" id="producto" name="usuarioproducto">
-                                <option class="input" value="Fp">Fotoproducto</option>
-                                <option class="input" value="Fm">Fotomontaje</option>
-                                F <option class="input" value="video">Video Produccion</option>
-                        </label>
-                    </li>
-
-                    <textarea class="textareaFormulario" name="mensaje" id="textarea" rows="5" cols="80"
-                        placeholder="Por favor, escribenos tu consulta"></textarea>
-                        
-                    <div class="labelFormularioDos ">
-                        * Expreso mi consentimiento para que creative LEGA
-                        procese mis datos personales y pueda recibir un presupuesto a través de la dirección de correo
-                        electrónico y/o número de teléfono.
-                        Acepto recibir información de marketing de sus servicios y productos, así como invitaciones a
-                        ferias y eventos organizados por creative LEGA mediante cualquier medio de comunicación a los
-                        datos
-                        personales proporcionados.
+            <section>
+                <div class="contenedorInfo">
+                    <div class="contenedorInfoAjuste">
+                        <div>
+                            <h1 class="h1Contacto">Contactanos</h1>
+                            <p class="pContacto">_________</p>
+                            <h2 class="h2Contacto">¿Tienes preguntas?. Nos encantaría
+                                conversar
+                                contigo. Envíanos un mensaje y te responderemos lo antes posible.</h2>
+                            <p class="pContacto">Whatsapp: 2494 521550</p>
+                            <p class="pContacto">consultas@creativelega.com.ar
+                            </p>
+                        </div>
                     </div>
 
-                    <li>
-                        <input class="botonEnviar" type="submit">
-                    </li>
-                </ul>
-            </form>
-        </section>
+                    <form class="informacionForm">
+                        <ul class="listaOrdenadaFormulario">
+                            <li class="separadorLi">
+                                <label class="labelFormulario">
+                                    Nombre y apellido
+                                    <input class="inputNombre" type="text" id="formNombre" name="nombre">
+                                </label>
+                            </li>
+
+                            <li> <label class="labelFormulario">
+                                    Ingrese su email
+                                    <input class="inputEmail" type="email" id="formmail" name="">
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="labelFormulario">
+                                    Tipo de Consulta
+                                    <select class="inputConsulta" id="producto" name="usuarioproducto">
+                                        <option class="inputConsulta" value="Fp">Fotoproducto</option>
+                                        <option class="inputConsulta" value="Fm">Fotomontaje</option>
+                                        F <option class="inputConsulta" value="video">Video Produccion</option>
+                                </label>
+                            </li>
+
+                            <textarea class="textareaFormulario" style="resize:none" name="mensaje" id="textarea"
+                                rows="5" cols="80" placeholder="Por favor, escribenos tu consulta"></textarea>
+
+                            <div class="divConsentimiento">
+                                * Expreso mi consentimiento para que creative LEGA
+                                procese mis datos personales y pueda recibir un presupuesto a través de la dirección de
+                                correo
+                                electrónico y/o número de teléfono.
+                                Acepto recibir información de marketing de sus servicios y productos, así como
+                                invitaciones
+                                a
+                                ferias y eventos organizados por creative LEGA mediante cualquier medio de comunicación
+                                a
+                                los
+                                datos
+                                personales proporcionados.
+                            </div>
+
+                            <li>
+                                <input class="botonEnviar" type="submit">
+                            </li>
+                        </ul>
+                        <div class="ubicacionMapa">
+                            <div class="ubicacionMapaDiv">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.81858318697812!2d-59.13275745602568!3d-37.3239433933776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f93d41644d1%3A0xae24356a10963ebc!2sGral.%20Paz%20657%2C%20B7000%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1667488409168!5m2!1ses!2sar"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
 
     </main>
 
-    <footer class="footer">
-        <div class="footer__div__uno">
-            <ul>
-                <li class="footer__div__ul__li">Abierto de 9:00 a 17:30 (Lunes a Viernes</li>
-                <li class="footer__div__ul__li">General Paz, 657, 7000</li>
-                <li class="footer__div__ul__li">Tandil, Buenos Aires, Argentina</li>
-                <li class="footer__div__ul__li">Tandil, ©2022 creative LEGA</li>
-            </ul>
-        </div>
-        <div class="footer__div__dos">
-            <ul>
-                <li class="footer__div__ul__li">Contáctanos</li>
-                <li class="footer__div__ul__li">Teléfono: +54 9 249 4521550 </li>
-                <li class="footer__div__ul__li">Instagram: @creativeLEGA</li>
-                <li class="footer__div__ul__li">Email: info@creativelega.com.ar</li>
-            </ul>
+    <footer>
+        <div class="footer">
+            <div class="footer__div__uno">
+                <ul>
+                    <li class="footer__div__ul__li__resaltado">Abierto de 9:00 a 17:30 (Lunes a Viernes)</li>
+                    <li class="footer__div__ul__li">General Paz, 657, 7000</li>
+                    <li class="footer__div__ul__li">Tandil, Buenos Aires, Argentina</li>
+                    <li class="footer__div__ul__li">Tandil, ©2022 creative LEGA</li>
+                </ul>
+            </div>
+            <div class="footerMargin">
+                <ul>
+                    <li class="footer__div__ul__li__resaltado">Contáctanos</li>
+                    <li class="footer__div__ul__li">Teléfono: +54 9 249 4521550 </li>
+                    <li class="footer__div__ul__li">Instagram: @creativeLEGA</li>
+                    <li class="footer__div__ul__li">Email: info@creativelega.com.ar</li>
+                </ul>
+            </div>
+            <div class="footerMarginIcons">
+                <ul class="flexSocial">
+                    <li class="footer__div__ul__li__resaltado"><i class="fa-regular fa-address-card iconSize"></i></li>
+                    <li class="footer__div__ul__li"><i class="fa-brands fa-twitch iconSize" ></i> </li>
+                    <li class="footer__div__ul__li"><i class="fa-brands fa-instagram iconSize"></i></li>
+                    <li class="footer__div__ul__li"><i class="fa-regular fa-envelope iconSize"></i></li>
+                </ul>
+            </div>
         </div>
     </footer>
-
 </body>
 
 </html>
