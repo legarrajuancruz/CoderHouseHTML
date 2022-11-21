@@ -4,11 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-.fontSize{
+.fontSize {
     font-size: 2rem;
+}
+
+.mt-6 {
+    margin-top: 8rem !important;
 }
 
 /* ////////////////   HTML Nav  ///////////////////*/
@@ -64,14 +68,14 @@
 /*Nav Bar BOOTSTRAP*/
 
 .navbar-brand {
-    
+
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap;
-  }
+}
 
 /* /////////// HTML Footer //////////// */
 
@@ -585,8 +589,8 @@ span {
     background-repeat: no-repeat;
 }
 
-/* ////////////////////     HTML Contacto Usando Flex  ///////////////// */
-
+/* ////////////////////     HTML Contacto Usando Flex -(apagado sin usar)  ///////////////// */
+/*
 .contenedorFormulario {
     display: flex;
     flex-direction: column;
@@ -602,20 +606,10 @@ span {
     background-image: linear-gradient(#00000000, #00000002, #0000000c);
 }
 
-.imagenContacto {
-    width: 100%;
-    height: 40vh;
-    background-image: url(../asset/images/Gatos\ contacto.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
-    background-position-y: 60px;
-}
-
 .section__contacto__dos {
     width: 100%;
     height: auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .contenedorInfoAjuste {
@@ -624,46 +618,11 @@ span {
     text-align: center;
 }
 
-.h1Contacto {
-    width: 100%;
-    height: 40px;
-    font-size: 3rem;
-    text-align: start;
-    padding-top: 20px;
-    padding-left: 10px;
-}
-
-.pContacto {
-    font-size: 3rem;
-    text-align: start;
-    padding-left: 15px;
-}
-
 .informacionForm {
     width: 550px;
     height: auto;
     margin-left: 130px;
-    font-size: 2rem;
-}
-
-.h2Contacto {
-
-    font-size: 2.5rem;
-    padding-top: 5px;
-    padding-left: 10px;
-    margin-bottom: 25px;
-    color: rgb(0, 0, 0);
-    text-align: left;
-    font-size: 2rem;
-}
-
-.pContacto {
-    width: 250px;
-    font-size: 2.5rem;
-    padding-left: 10px;
-    color: rgb(0, 0, 0);
-    text-align: left;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .inputNombre {
@@ -736,3 +695,104 @@ span {
     border: 1px solid rgb(114, 114, 114);
     margin: 50px 0 50px 0;
 }
+*/
+
+.h1Contacto {
+    width: 100%;
+    height: 40px;
+    font-size: 2rem;
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.pContacto {
+    font-size: 1rem;
+    text-align: start;
+    padding-left: 15px;
+}
+.h2Contacto {
+
+    font-size: 2.5rem;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1.2rem;
+}
+.pContacto {
+    width: 250px;
+    font-size: 2.5rem;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1.2rem;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;    
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 0.3em;
+    height: 0.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .imagenContacto {
+    width: 100%;
+    height: 250px;
+    background-image: url(../asset/images/Gatos\ contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position-y: 90px;
+    object-fit: cover;
+}
+
+/* DEFORMAME EL GATO AHORAA!!!!!!*/
+
+  @media screen and (max-width: 667px) {
+    .imagenContacto {
+        width: 100%;
+        height: 250px;
+        background-image: url(../asset/images/Gatos\ contacto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+               
+        
+    }
+   
+      
+    }
