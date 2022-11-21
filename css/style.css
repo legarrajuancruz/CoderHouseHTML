@@ -158,14 +158,14 @@
 
 .main__section__h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4rem;
+    font-size: 2.2rem;
     color: white;
     padding-top: 300px;
     font-weight: lighter;
 }
 
 .main__section__h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -174,14 +174,14 @@
 span {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
 }
 
 .main__section__p {
     text-align: center;
     height: 300px;
     width: 750px;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -202,7 +202,7 @@ span {
     margin-top: 30px;
     border: 1px solid black;
     border-radius: 25px;
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: 15px 15px 15px 15px;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
@@ -265,21 +265,15 @@ span {
     grid-column: 1/3;
 }
 
-
-
 .cardGaleria3 {
     grid-column: 4/5;
     grid-row: 1/3;
 
 }
 
-
-
 .cardGaleria5 {
     grid-column: 2/4;
 }
-
-
 
 .cardGaleria7 {
     grid-column: 1/3;
@@ -361,27 +355,31 @@ span {
     font-weight: lighter;
 }
 
-.sectionuno__h2 {
-    font-size: 1.5rem;
+.sectionuno__h2 {   
+    font-size: 2rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     line-height: 25px;
+    margin-bottom: 2rem;
 }
 
-.sectionuno__p {
-    display: flex;
-    text-align: center;
-    height: 700px;
-    width: 750px;
+.sectionuno__p {   
+    text-align: center;   
     font-size: 1.5rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    margin-top: 30px;
-    line-height: 30px;
+    font-weight: lighter;    
+    line-height: 35px;
 }
 
+.pb-6{
+    padding-bottom: 6rem;
+}
+
+.filtroBrillo{
+    filter: brightness(60%);
+}
 
 /* Section dos */
 
@@ -593,113 +591,7 @@ span {
     background-repeat: no-repeat;
 }
 
-/* ////////////////////     HTML Contacto Usando Flex -(apagado sin usar)  ///////////////// */
-/*
-.contenedorFormulario {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-}
-
-.contenedorInfo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 50px;
-    background-image: linear-gradient(#00000000, #00000002, #0000000c);
-}
-
-.section__contacto__dos {
-    width: 100%;
-    height: auto;
-    font-size: 1.5rem;
-}
-
-.contenedorInfoAjuste {
-    width: 300px;
-    height: 250px;
-    text-align: center;
-}
-
-.informacionForm {
-    width: 550px;
-    height: auto;
-    margin-left: 130px;
-    font-size: 1rem;
-}
-
-.inputNombre {
-    margin-bottom: 15px;
-    margin-left: 25px;
-    width: 200px;
-    height: 25px;
-    font-size: 1.5rem;
-}
-
-.inputEmail {
-    margin-bottom: 15px;
-    margin-left: 44px;
-    width: 200px;
-    height: 25px;
-    font-size: 1.5rem;
-}
-
-.inputConsulta {
-    margin-bottom: 15px;
-    margin-left: 38px;
-    width: 200px;
-    height: 25px;
-    font-size: 1.5rem;
-}
-
-.labelFormulario {
-    font-size: 2rem;
-    font-weight: lighter;
-}
-
-.divConsentimiento {
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin-bottom: 35px;
-}
-
-.botonEnviar {
-    font-size: 2rem;
-    width: 70px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-.listaOrdenadaFormulario {
-    list-style: none;
-}
-
-.areaformulario {
-    font-size: 4rem;
-    font-weight: lighter;
-}
-
-.separadorLi {
-    width: 450px;
-}
-
-.ubicacionMapa {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-
-.ubicacionMapaDiv {
-    width: 602px;
-    height: 452px;
-    border: 1px solid rgb(114, 114, 114);
-    margin: 50px 0 50px 0;
-}
-*/
+/* ////////////////////     HTML Contacto   ///////////////// */
 
 .h1Contacto {
     width: 100%;
@@ -784,7 +676,7 @@ span {
     object-fit: cover;
 }
 
-/* DEFORMAME EL GATO AHORAA!!!!!!*/
+/* no re deformas mas gato!!!!!!*/
 
   @media screen and (max-width: 667px) {
     .imagenContacto {
