@@ -1,0 +1,147 @@
+main {
+    div {
+        div {
+            div {
+                .filtroBrillo {
+                    filter: brightness(60%);
+                }
+
+                div {
+                    .pb-6 {
+                        padding-bottom: 6rem;
+
+                        .sectionuno__h1 {
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-size: 3rem;
+                            color: $blanco;
+                            font-weight: lighter;
+                        }
+
+                        .sectionuno__h2 {
+                            font-size: 2rem;
+                            color: $blanco;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: lighter;
+                            line-height: 25px;
+                            margin-bottom: 2rem;
+                        }
+
+                        .sectionuno__p {
+                            text-align: center;
+                            font-size: 1.5rem;
+                            color: $blanco;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: lighter;
+                            line-height: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* ////////////////////     HTML NOSOTROS   ///////////////// */
+
+main {
+    .section__nosotros__uno {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        background-image: linear-gradient(#0000001f, #00000062, #000000a9), url(../asset/images/Nosotros.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position-y: 60px;
+
+        .section__nosotros__uno__h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: lighter;
+            font-size: 4rem;
+            color: rgb(255, 255, 255);
+            padding-top: 60px;
+        }
+
+        .section__nosotros__uno__h2 {
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+    }
+
+    @media screen and (max-width: 665px) {
+        .section__nosotros__uno {
+            width: 100%;
+            height: 250px;
+            text-align: center;
+            background-image: linear-gradient(#0000001f, #00000062, #000000a9), url(../asset/images/Nosotros-dos.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
+            background-position-y: 80px;
+
+            .section__nosotros__uno__h1 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 3rem;
+                color: $blanco;
+                padding-top: 130px;
+                font-weight: lighter;
+            }
+
+            .section__nosotros__uno__h2 {
+                font-size: 1.3rem;
+                color: $blanco;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    section {
+        div {
+            div {
+                div {
+                    div {
+                        div {
+                            div {
+                                .section__nosotros__dos__card__div__h3 {
+                                    background-color: $blanco;
+                                    color: rgb(0, 0, 0);
+                                    font-size: 1.5rem;
+                                    padding-top: 0px
+                                }
+
+                                .section__nosotros__dos__card__div__p {
+                                    font-size: 1rem;
+                                    color: black;
+                                    font-family: sans-serif;
+                                    padding-top: 30px;
+                                    line-height: 24px;
+
+                                }
+
+                                .section__nosotros__dos__card__div__ul {
+                                    margin-top: 25px;
+                                    padding-left: 45px;
+                                    text-align: start;
+                                    font-weight: bold;
+
+                                    .section__nosotros__dos__card__div__ul__li {
+
+                                        font-size: 1.2rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
