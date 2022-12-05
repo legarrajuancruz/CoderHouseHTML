@@ -469,7 +469,7 @@ legend+* {
 
 ::-webkit-file-upload-button {
   font: inherit;
-  -webkit-appearance: button;
+  
 }
 
 output {
@@ -7812,7 +7812,7 @@ fieldset:disabled .btn {
   margin-bottom: 1rem !important;
 }
 
-.my-4 {
+mb-2 .my-4 {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
 }
@@ -9637,9 +9637,9 @@ fieldset:disabled .btn {
 
   .pt-md-3 {
     padding-top: 1rem !important;
-  }S
+  }
 
-  .pt-md-4 {
+  S .pt-md-4 {
     padding-top: 1.5rem !important;
   }
 
