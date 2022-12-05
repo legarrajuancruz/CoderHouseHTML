@@ -1,4 +1,3 @@
-
 main {
     div {
         div {
@@ -102,35 +101,6 @@ main {
                             }
                         }
                     }
-
-                    div {
-                        .imagenBottomHome {
-                            width: 100%;
-                            height: 550px;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            object-fit: cover;
-                            background-image: url(../asset/images/caja3d-2.jpg);
-                            background-repeat: no-repeat;
-
-
-
-                        }
-                    }
-
-                    @media screen and (max-width: 665px) {
-                        .imagenBottomHome {
-                            width: 100%;
-                            height: 250px;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            object-fit: contain;
-                            background-image: url(../asset/images/caja3d-2.jpg);
-                            background-repeat: no-repeat;
-                        }
-                    }
                 }
             }
         }
@@ -139,4 +109,30 @@ main {
             width: 90%;
         }
     }
+
+    div {
+        .imagenBottomHome {
+            width: 100%;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            object-fit: cover;
+            background-image: url(../asset/images/caja3d-2.jpg);
+            background-repeat: no-repeat;        
+        }
+
+        @media screen and (max-width: 665px) {
+            .imagenBottomHome {
+                width: 100%;
+                height: 250px;
+                background-image: url(../asset/images/caja3d-3.jpg);
+                background-repeat: no-repeat;  
+                background-size: cover;             
+
+            }
+        }
+    }
+
+
 }

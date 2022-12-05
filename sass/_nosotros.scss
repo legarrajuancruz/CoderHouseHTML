@@ -38,10 +38,10 @@ main {
             background-repeat: no-repeat;
             background-size: contain;
             background-attachment: fixed;
-            background-position-y: 80px;
+            background-position-y: 80px;           
 
             .section__nosotros__uno__h1 {
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family: $fuenteDos;
                 font-size: 3rem;
                 color: $blanco;
                 padding-top: 130px;
@@ -51,7 +51,7 @@ main {
             .section__nosotros__uno__h2 {
                 font-size: 1.3rem;
                 color: $blanco;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fuente;
                 font-weight: lighter;
             }
         }

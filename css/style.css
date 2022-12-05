@@ -139,7 +139,10 @@ main div div section div div div div .indexSectionParrafo {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter; }
 
-main div div section div div .imagenBottomHome {
+main div .indexSectionParrafo {
+  width: 90%; }
+
+main div .imagenBottomHome {
   width: 100%;
   height: 550px;
   display: flex;
@@ -150,18 +153,12 @@ main div div section div div .imagenBottomHome {
   background-repeat: no-repeat; }
 
 @media screen and (max-width: 665px) {
-  main div div section div .imagenBottomHome {
+  main div .imagenBottomHome {
     width: 100%;
     height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    object-fit: contain;
-    background-image: url(../asset/images/caja3d-2.jpg);
-    background-repeat: no-repeat; } }
-
-main div .indexSectionParrafo {
-  width: 90%; }
+    background-image: url(../asset/images/caja3d-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; } }
 
 main .sectionGaleria {
   display: flex;
@@ -347,3 +344,138 @@ main section div div div div div div .section__nosotros__dos__card__div__ul {
   font-weight: bold; }
   main section div div div div div div .section__nosotros__dos__card__div__ul .section__nosotros__dos__card__div__ul__li {
     font-size: 1.2rem; }
+
+main .section__nosotros__uno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  background-image: linear-gradient(#0000001f, #00000062, #000000a9), url(../asset/images/Nosotros.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position-y: 60px; }
+  main .section__nosotros__uno .section__nosotros__uno__h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 4rem;
+    color: white;
+    padding-top: 60px; }
+  main .section__nosotros__uno .section__nosotros__uno__h2 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; }
+
+@media screen and (max-width: 665px) {
+  main .section__nosotros__uno {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-image: linear-gradient(#0000001f, #00000062, #000000a9), url(../asset/images/Nosotros-dos.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position-y: 80px; }
+    main .section__nosotros__uno .section__nosotros__uno__h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3rem;
+      color: white;
+      padding-top: 130px;
+      font-weight: lighter; }
+    main .section__nosotros__uno .section__nosotros__uno__h2 {
+      font-size: 1.3rem;
+      color: white;
+      font-family: sans-serif;
+      font-weight: lighter; } }
+
+main section div div div div div div .section__nosotros__dos__card__div__h3 {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  padding-top: 0px; }
+
+main section div div div div div div .section__nosotros__dos__card__div__p {
+  font-size: 1rem;
+  color: black;
+  font-family: sans-serif;
+  padding-top: 30px;
+  line-height: 24px; }
+
+main section div div div div div div .section__nosotros__dos__card__div__ul {
+  margin-top: 25px;
+  padding-left: 45px;
+  text-align: start;
+  font-weight: bold; }
+  main section div div div div div div .section__nosotros__dos__card__div__ul .section__nosotros__dos__card__div__ul__li {
+    font-size: 1.2rem; }
+
+main div div div div .h1Contacto {
+  width: 100%;
+  height: 40px;
+  font-size: 2rem;
+  text-align: start;
+  padding-top: 20px;
+  padding-left: 10px; }
+
+main div div div div .pContacto {
+  font-size: 1rem;
+  text-align: start; }
+
+main div div div div .h2Contacto {
+  font-size: 2.5rem;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 2rem; }
+  main div div div div .h2Contacto div .pContacto {
+    width: 250px;
+    font-size: 2.5rem;
+    padding-left: 10px;
+    color: black;
+    text-align: left;
+    font-size: 1.2rem; }
+
+main div div div div form .form-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+main div div .imagenContacto {
+  width: 100%;
+  height: 250px;
+  background-image: url(../asset/images//gatos-contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position-y: 90px;
+  object-fit: cover; }
+
+@media screen and (max-width: 667px) {
+  main div div .imagenContacto {
+    width: 100%;
+    height: 150px;
+    background-image: url(../asset/images/gatos-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; } }
