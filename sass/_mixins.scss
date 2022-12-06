@@ -1,6 +1,6 @@
-@mixin alineado {
+@mixin alineado ($alineacion, $justificado){
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: $alineacion;
+    justify-content: $justificado;
     align-items: center;
 }
