@@ -91,60 +91,72 @@ main {
                 grid-column: 2/3;
             }
 
-            git .cardGaleria12 {
+            .cardGaleria12 {
                 grid-row: 3;
-                grid-column: 1/2;
+                grid-column: 4/5;
             }
 
             @media screen and (max-width: 665px) {
 
                 .cardGaleria1 {
                     grid-column: 1/5;
+                    grid-row: 1;
                 }
 
                 .cardGaleria2 {
                     grid-column: 1/5;
+                    grid-row: 2;
                 }
 
                 .cardGaleria3 {
                     grid-column: 1/5;
+                    grid-row: 3;
                 }
 
                 .cardGaleria4 {
                     grid-column: 1/5;
+                    grid-row: 4;
                 }
 
                 .cardGaleria5 {
                     grid-column: 1/5;
+                    grid-row: 5;
                 }
 
                 .cardGaleria6 {
                     grid-column: 1/5;
+                    grid-row: 6;
                 }
 
                 .cardGaleria7 {
                     grid-column: 1/5;
+                    grid-row: 7;
                 }
 
                 .cardGaleria8 {
                     grid-column: 1/5;
+                    grid-row: 8;
                 }
 
                 .cardGaleria9 {
                     grid-column: 1/5;
+                    grid-row: 9;
 
                 }
 
                 .cardGaleria10 {
                     grid-column: 1/5;
+                    grid-row: 12;
                 }
 
                 .cardGaleria11 {
                     grid-column: 1/5;
+                    grid-row: 13;
                 }
 
                 .cardGaleria12 {
                     grid-column: 1/5;
+                    grid-row: 14;
                 }
 
             }
