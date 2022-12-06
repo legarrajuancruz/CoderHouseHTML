@@ -13,8 +13,6 @@
   overflow: hidden; }
 
 header .navegador {
-  display: flex;
-  justify-content: center;
   z-index: 1;
   border-bottom: 1.5px solid #e7e7e7;
   box-shadow: 0px 7px 15px -9px rgba(0, 0, 0, 0.41);
@@ -126,14 +124,14 @@ main div div div .mainIndex__section {
       height: auto;
       font-size: 0.9rem; } }
 
-main div div section div div div div .indexSectionParrafo {
+main div div div section .indexSectionParrafo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 80%;
   margin-top: 30px;
-  border: 1px solid black;
+  border: 1px dotted black;
   border-radius: 25px;
   font-size: 1.2rem;
   padding: 15px 15px 15px 15px;

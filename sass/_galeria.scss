@@ -1,12 +1,12 @@
 main {
     .sectionGaleria {
-        @include alineado;
+        @include alineado(column, center);
         width: 100%;
         height: 35vh;
         background-image: linear-gradient(#0000000c, #00000062, #000000a9), url(../asset/images/GaleriaImagen.png);
 
         .sectionGaleriaOrden {
-            @include alineado;
+            @include alineado(column, center);
             color: $blanco;
 
             .logoGrande {
