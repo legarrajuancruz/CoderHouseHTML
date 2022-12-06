@@ -68,12 +68,12 @@ header .navegador {
       transform-origin: bottom left; }
 
 main div div div .mainIndex__section {
-  width: 100%;
-  height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 740px;
   margin-top: 30px;
   text-align: center;
   background-image: linear-gradient(#00000000, #0000002d, #000000a9), url(../asset/images/backgroud-main-section-4.jpg);
@@ -126,11 +126,12 @@ main div div div .mainIndex__section {
       font-size: 0.9rem; } }
 
 main div div section div div div div .indexSectionParrafo {
-  width: 80%;
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 30px;
   border: 1px solid black;
   border-radius: 25px;
   font-size: 1.2rem;
@@ -140,11 +141,12 @@ main div div section div div div div .indexSectionParrafo {
   font-weight: lighter; }
 
 main div .imagenBottomHome {
-  width: 100%;
-  height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 550px;
   object-fit: cover;
   background-image: url(../asset/images/caja3d-2.jpg);
   background-repeat: no-repeat; }
@@ -168,6 +170,8 @@ main .sectionGaleria {
   main .sectionGaleria .sectionGaleriaOrden {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white; }
     main .sectionGaleria .sectionGaleriaOrden .logoGrande {
       margin-top: 100px;
@@ -175,11 +179,12 @@ main .sectionGaleria {
       height: auto; }
 
 main .flexGaleria {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  display: flex;
   background-image: linear-gradient(to right top, #ececec, #f8f8f8, #f6f7f6, #f5f5f5, #e2e2e2); }
   main .flexGaleria .mainGaleria {
     width: 90%;

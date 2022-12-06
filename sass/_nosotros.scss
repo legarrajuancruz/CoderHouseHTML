@@ -1,9 +1,6 @@
 main {
     .section__nosotros__uno {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include alineado;
         width: 100%;
         height: 50vh;
         text-align: center;
@@ -38,7 +35,7 @@ main {
             background-repeat: no-repeat;
             background-size: contain;
             background-attachment: fixed;
-            background-position-y: 80px;           
+            background-position-y: 80px;
 
             .section__nosotros__uno__h1 {
                 font-family: $fuenteDos;

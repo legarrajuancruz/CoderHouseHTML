@@ -3,12 +3,9 @@ main {
         div {
             div {
                 .mainIndex__section {
+                    @include alineado;
                     width: 100%;
                     height: 740px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
                     margin-top: 30px;
                     text-align: center;
                     background-image: linear-gradient(#00000000, #0000002d, #000000a9), url(../asset/images/backgroud-main-section-4.jpg);
@@ -85,11 +82,9 @@ main {
                         div {
                             div {
                                 .indexSectionParrafo {
+                                    @include alineado;
                                     width: 80%;
                                     margin-top: 30px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
                                     border: 1px solid black;
                                     border-radius: 50px /$divisor;
                                     font-size: 1.2rem;
@@ -108,11 +103,9 @@ main {
 
     div {
         .imagenBottomHome {
+            @include alineado;
             width: 100%;
             height: 550px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
             object-fit: cover;
             background-image: url(../asset/images/caja3d-2.jpg);
             background-repeat: no-repeat;
