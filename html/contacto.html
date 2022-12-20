@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navegador navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand " href="#"><img src="../asset/images/Creative-LEGA-chico.png" width="150"
+                <a class="navegador__imagen" href="#"><img src="../asset/images/Creative-LEGA-chico.png" width="150"
                         height="auto"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarMenu"
@@ -57,7 +57,8 @@
                 <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
                     <div class="row">
                         <div class="container d-flex justify-content-center">
-                            <img src="../asset/images/Contactanos.png" alt="Imagen Contactanos" width="280" height="auto">
+                            <img src="../asset/images/Contactanos.png" alt="Imagen Contactanos" width="280"
+                                height="auto">
                         </div>
                         <h1 class="container d-flex justify-content-center h1Contacto">Contactanos</h1>
                         <p class="container d-flex justify-content-center pContacto">______________</p>
@@ -66,14 +67,15 @@
                             conversar
                             contigo. Envíanos un mensaje y te responderemos lo antes posible.</h2>
                         <div class="d-flex justify-content-center">
-                            <p class="pContacto"><i class="fa-brands fa-whatsapp me-1 text-secondary "></i>Whatsapp:
+                            <a href="https://wa.me/542494521550" class="pContacto"><i
+                                    class="fa-brands fa-whatsapp me-1 text-secondary "></i>Whatsapp:
                                 2494 521550
-                            </p>
+                            </a>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <p class="pContacto"><i
+                            <a href="mailto:info@creativelega.com.ar" class="pContacto"><i
                                     class="fa-sharp fa-solid fa-envelope me-1 text-secondary "></i>info@creativelega.com.ar
-                            </p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -82,25 +84,26 @@
                 <div class="col-md-3 col-lg-4 col-xl-8 mx-auto mb-4">
                     <form>
                         <div class="mt-5 mb-4">
-                            <input type="text" id="form4Example1" class="form-control" />
+                            <input type="text" id="form4Example1" class="form-control " required />
                             <label class="form-label" for="form4Example1">Nombre</label>
                         </div>
 
                         <div class="mb-4">
-                            <input type="email" id="form4Example2" class="form-control" />
+                            <input type="email" id="form4Example2" class="form-control " required />
                             <label class="form-label" for="form4Example2">Direccion Email</label>
                         </div>
 
-                        <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+                        <select class="form-select form-select-lg" aria-label=".form-select-lg example" required>
                             <option selected></option>
                             <option value="1">Foto Producto</option>
                             <option value="2">Foto Montaje</option>
                             <option value="3">Video Producción</option>
                         </select>
-                        <label class="form-label mb-4" for="form4Example2">Selecciona una opción</label>
+                        <label class="form-label mb-4" for="form4Example2 " required>Selecciona una opción</label>
 
                         <div class="mb-4">
-                            <textarea class="form-control" id="form4Example3" rows="4" style="resize:none"></textarea>
+                            <textarea class="form-control" id="form4Example3" rows="4" style="resize:none"
+                                required></textarea>
                             <label class="form-label" for="form4Example3">Dejanos tu mensaje</label>
                         </div>
 
@@ -175,7 +178,7 @@
         </div>
     </main>
 
-    <footer class="text-center text-lg-start bg-white text-muted">
+    <footer class="text-center text-lg-start bg-white text-muted px-0">
 
         <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
         </div>
@@ -185,9 +188,10 @@
 
                 <div class="row mt-3">
 
-                    <div class="col-md-3 col-lg-4 col-xl-5 mx-auto mb-4">
+                    <div class="col-md-3 col-lg-4 col-xl-5 mb-4">
                         <a class="navbar-brand d-flex justify-content-center" href="#"><img
-                                src="../asset/images/Creative-LEGA-chico.png" alt="Logo creative lega chico" width="150" height="auto"></a>
+                                src="../asset/images/Creative-LEGA-chico.png" alt="Logo Creative Lega chico" width="150"
+                                height="auto"></a>
                         <p class="text-center mt-3 fw-bold ">
                             Abierto de 9:00 a 17:30 (Lunes a Viernes)
                         </p>
@@ -207,12 +211,12 @@
                             Redes Sociales
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none"><i
+                            <a href="https://www.facebook.com/" class="text-reset text-decoration-none"><i
                                     class="fa-brands fa-facebook me-3 text-secondary"></i>creativeLEGA</a>
 
                         </p>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none"><i
+                            <a href="https://www.instagram.com/" class="text-reset text-decoration-none"><i
                                     class="fa-brands fa-square-instagram me-3 text-secondary"></i>@creativeLEGA</a>
                         </p>
                     </div>
@@ -222,7 +226,6 @@
 
         <div class="text-center p-4" style="background-color: rgba(102, 102, 102, 0.025);">
             © 2022 CreativeLEGA
-
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.js"></script>

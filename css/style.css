@@ -21,7 +21,7 @@ header .navegador {
   header .navegador div .navegador__imagen {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
-    margin-right: 1rem;
+    margin-right: 1.1rem;
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap; }
@@ -186,13 +186,17 @@ main .flexGaleria {
   display: flex;
   background-image: linear-gradient(to right top, #ececec, #f8f8f8, #f6f7f6, #f5f5f5, #e2e2e2); }
   main .flexGaleria .mainGaleria {
-    width: 90%;
+    width: 70%;
     height: auto;
     margin: 50px 0 50px 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
     grid-gap: 1rem; }
+    @media screen and (max-width: 665px) {
+      main .flexGaleria .mainGaleria {
+        width: 90%;
+        height: auto; } }
     main .flexGaleria .mainGaleria .img-thumbnail {
       padding: 0.5rem;
       background-color: white;
@@ -204,6 +208,17 @@ main .flexGaleria {
         width: 100%;
         height: 100%;
         object-fit: cover; }
+    main .flexGaleria .mainGaleria .img-thumbnail:hover {
+      padding: 0.5rem;
+      background-color: white;
+      border: 5px solid white;
+      max-width: 100%;
+      height: auto; }
+      main .flexGaleria .mainGaleria .img-thumbnail:hover .imagen {
+        border: 1px solid rgba(94, 94, 94, 0.301);
+        scale: 120%;
+        object-fit: cover;
+        z-index: 1; }
     main .flexGaleria .mainGaleria .cardGaleria1 {
       grid-column: 1/3; }
     main .flexGaleria .mainGaleria .cardGaleria3 {
@@ -367,7 +382,9 @@ main div div div div .h1Contacto {
 
 main div div div div .pContacto {
   font-size: 1rem;
-  text-align: start; }
+  text-align: start;
+  text-decoration: none;
+  color: black; }
 
 main div div div div .h2Contacto {
   font-size: 2.5rem;
