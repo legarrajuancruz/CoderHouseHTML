@@ -176,6 +176,9 @@ main .sectionGaleria {
       margin-top: 100px;
       width: 250px;
       height: auto; }
+    main .sectionGaleria .sectionGaleriaOrden .sectionGaleriaOrdenH1 {
+      font-size: 2.5rem;
+      margin-top: 5px; }
 
 main .flexGaleria {
   display: flex;
